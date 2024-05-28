@@ -11,6 +11,7 @@
     </h3>
 
     <br><br>
+
     <p><a href='https://github.com/vueuse/vueuse-vite-starter' target='__blank'>Source</a></p>
     <p><a href='https://vueuse-vue3-example.netlify.app/' target='__blank'>Webpack Example</a></p>
   </div>
@@ -21,6 +22,8 @@ import { useMouse, useCounter } from '@vueuse/core'
 
 const { x, y } = useMouse()
 const { count, inc, dec } = useCounter()
+
+
 </script>
 
 <style scoped>
